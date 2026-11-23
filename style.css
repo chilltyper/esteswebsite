@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Courier+Prime:wght@400;700&family=News+Cycle:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f2e8;
+    color: #29233d;
+    font-family: "News Cycle", sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* nav */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: linear-gradient(to bottom, #ede1cd, #f8f2e8);
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav a {
+    font-size: 30px;
+}
+/* hero hp */
+
+.hero {
+    width: 85%;
+    margin: 60px auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 650px;
+}
+
+.small-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: normal;
+    line-height: 0.95;
+}
+
+h1, h2, h3 {
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: normal;
+}
+
+.small-title, .card-number {
+    font-family: "Courier Prime", monospace;
+}
+
+h1 span {
+    display: block;
+    font-size: 70px;
+    color: #8056d6;
+}
+
+.hero-description {
+    max-width: 500px;
+    margin-top: 25px;
+    font-size: 21px;
+}
+
+.button {
+    display: inline-block;
+    width: 300px;
+    padding: 14px 20px;
+    background: #e4c9f8;
+    border: 2px solid #29233d;
+    border-radius: 12px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-button {
+    margin-top: 30px;
+    background: #dcb8f5;
+}
+
+.hero {
+    width: 85%;
+    margin: 60px auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: normal;
+    line-height: 0.95;
+}
+
+h1, h2, h3 {
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: normal;
+}
+
+h1 span {
+    display: block;
+    font-size: 60px;
+    color: #8056d6;
+    margin-top: 40px;
+}
+
+.hero-photo {
+    width: 80%;
+    margin: auto;
+}
+
+.reach-out-button {
+    margin-top: 60px;
+}
+
+.photo-box {
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4b8d2;
+    border: 3px solid #29233d;
+    border-radius: 25px;
+    font-size: 25px;
+}
+/* intro sect hp */
+.intro {
+    padding: 90px 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    background: #25223b;
+    color: white;
+}
+
+.intro-photo {
+    width: 70%;
+    aspect-ratio: 3/2;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f2e8;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.intro-text-content {
+    max-width: 600px;
+}
+
+.intro-description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.intro h2 {
+    max-width: 850px;
+    margin: 10px 0 20px;
+    font-size: 55px;
+    line-height: 1;
+}
+
+.intro h2 span {
+    color: #e2b9f7;
+}
+
+.intro-text {
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+}
+/* cards hp */
+.cards {
+    padding: 90px 9%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.card {
+    min-height: 380px;
+    padding: 35px;
+    border: 3px solid #29233d;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-card {
+    background: #f4b8d2;
+}
+
+.work-card {
+    background: #dcb8f5;
+}
+
+.card-number {
+    font-size: 18px;
+}
+
+.card h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.card .button {
+    align-self: flex-start;
+    background: transparent;
+}
+/* contact hp footer */
+.contact-preview {
+    padding: 75px 9%;
+    background: #efdfc6;
+    text-align: center;
+}
+
+.contact-preview h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 25px;
+    border: 2px solid #29233d;
+    border-radius: 30px;
+    background: white;
+    font-size: 18px;
+}
+/* FOOTER */
+footer {
+    padding: 25px 7%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    border-top: 1px solid #29233d;
+}
+/* SUBPAGE TITLES */
+.page-title {
+    min-height: 70vh;
+    padding: 100px 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-title h1 {
+    color: #8056d6;
+}
+/* ABOUT*/
+.about-page {
+    width: 85%;
+    margin: 60px auto;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-photo {
+    width: 85%;
+    aspect-ratio: 4 / 5;
+    margin: auto;
+    background: #f4b8d2;
+    border: 3px solid #29233d;
+    border-radius: 25px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h1 {
+    font-size: 80px;
+    color: #8056d6;
+    margin-bottom: 30px;
+}
+
+.about-content p:not(.small-title) {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content .button {
+    margin-top: 15px;
+}
+/*WORK*/
+.work-page {
+    width: 85%;
+    margin: 60px auto;
+}
+
+.work-heading {
+    padding: 60px 0;
+    border-bottom: 2px solid #29233d;
+}
+
+.work-heading h1 {
+    font-size: 90px;
+    color: #8056d6;
+}
+
+.work-item {
+    padding: 45px 20px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+    border-bottom: 2px solid #29233d;
+}
+
+.work-number {
+    font-family: "Courier Prime", monospace;
+    font-size: 20px;
+}
+
+.work-item h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.work-item p {
+    max-width: 700px;
+    font-size: 20px;
+}
+/* HOVER transitions */
+.button {
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background: #8056d6;
+    color: #f8f2e8;
+    transform: translateY(-3px);
+}
+
+nav a {
+    transition: color 0.2s ease;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: #8056d6;
+    font-weight: 700;
+}
+
+.logo {
+    transition: color 0.2s ease;
+}
+
+.logo:hover {
+    color: #8056d6;
+}
+
+.contact-button {
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+    background: #8056d6;
+    color: #f8f2e8;
+    transform: translateY(-3px);
+}
+/* contactpage */
+.contact-page {
+    width: 85%;
+    margin: 60px auto;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.contact-heading {
+    max-width: 600px;
+}
+
+.contact-heading h1 {
+    font-size: 150px;
+    color: #8056d6;
+    line-height: 0.95;
+    margin-bottom: 150px;
+}
+
+.contact-heading p:not(.small-title) {
+    font-size: 21px;
+    max-width: 500px;
+}
+/* FORM */
+.contact-form {
+    padding: 40px;
+    background: #f4b8d2;
+    border: 3px solid #29233d;
+    border-radius: 25px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 7px;
+    font-family: "Courier Prime", monospace;
+    font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 25px;
+    background: #f8f2e8;
+    border: 2px solid #29233d;
+    border-radius: 10px;
+    font-family: "News Cycle", sans-serif;
+    font-size: 18px;
+}
+
+.contact-form textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.contact-form .button {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.required {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}

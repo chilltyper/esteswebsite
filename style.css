@@ -306,7 +306,8 @@ footer {
     width: 85%;
     aspect-ratio: 4 / 5;
     margin: auto;
-    background: #f4b8d2;
+    background-image: url("images/aboutphoto.png");
+    background-size: cover;
     border: 3px solid #29233d;
     border-radius: 25px;
 }
